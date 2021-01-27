@@ -1,0 +1,10 @@
+1. ./bin - "mysqld --initialize --console" save password
+2. ./bin - "mysql --console" 
+3. from another console -> ./bin - "mysql --user root --password" enter saved password
+4. ./bin - "alter user 'root'@'localhost' identified by 'pass';"
+5. ./bin - "create user 'app'@'localhost' identified with mysql_native_password by 'pass';" - to create user
+6. ./bin - "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'" - or to work with 'root' user
+7. ./bin - "flush privileges;"
+8. ./bin - "create database $YOUR_DB_NAME;" - create database
+9. ./bin - "grant all privileges on social.* to '$USER'@'localhost';"
+10. ./bin - "flush privileges;" 

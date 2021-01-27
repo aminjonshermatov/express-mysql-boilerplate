@@ -10,5 +10,8 @@ Before start don't forget to create **.env** file in root folder. Requirements f
 
  - **PORT**
  - **NODE_ENV**
- - **MONGO_URI**
  - **SECRET_KEY**
+ - **HOST**
+ - **USER**
+ - **PASSWORD**
+ - **DB**
